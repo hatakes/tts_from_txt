@@ -1,0 +1,10 @@
+{
+  "model": "",
+  "voice": "serena",
+  "lang": "zh",
+  "cfg_scale": "1.2",
+  "enable_sfx": true,
+  "sfx_dir": "sfx_library",
+  "sfx_config_file": "config/sfx_config.json",
+  "resume_state_file": "tts_resume_state.json"
+}

@@ -1,0 +1,56 @@
+{
+  "sfx_to_file": {
+    "啪": "slapping and hitting sounds.wav",
+    "嘭": "heavy thud and banging.wav",
+    "咻": "swishing and whipping sound.wav",
+    "哗": "water flowing and splashing.wav",
+    "轰": "thunder rumbling.wav",
+    "吱": "creaking sound.wav",
+    "轰隆": "thunder rumbling.wav",
+    "噼里": "crackling and popping.wav",
+    "噼啪": "crackling and popping.wav",
+    "巴掌": "slapping sound.wav",
+    "敲门": "knocking on door.wav",
+    "雷": "thunder.wav",
+    "风": "wind blowing.wav",
+    "雨": "rain falling.wav"
+  },
+  "non_speech_sfx_keys": [
+    "啪",
+    "嘭",
+    "咻",
+    "哗",
+    "轰",
+    "吱",
+    "轰隆",
+    "噼里",
+    "噼啪",
+    "巴掌",
+    "敲门",
+    "雷",
+    "风",
+    "雨"
+  ],
+  "sfx_patterns": [
+    {
+      "pattern": "噼里啪啦",
+      "sfx_key": "噼里"
+    },
+    {
+      "pattern": "噼啪啪",
+      "sfx_key": "噼啪"
+    },
+    {
+      "pattern": "轰隆",
+      "sfx_key": "轰隆"
+    },
+    {
+      "pattern": "(?:巴掌|敲门|抽打|鞭打)声",
+      "sfx_key": null
+    },
+    {
+      "pattern": "(喊|鞭|雷|风|雨)声",
+      "sfx_key": null
+    }
+  ]
+}
